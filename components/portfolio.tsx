@@ -6,21 +6,21 @@ import TransitionLink from "./transition-link"
 
 const projects = [
   {
-    title: "Nahuel Lozano",
-    description: "Llevamos a cabo lo pedido por Nahuel, superamos sus expectativas.",
-    imgSrc: "/images/project-cyberscape.png",
+    title: "Nahuel – Landing Page Personal",
+    description: "Diseñamos y desarrollamos su landing profesional, optimizada para performance y conversión.",
+    imgSrc: "/images/nahuelozano.png",
     href: "https://lozanonahuel.vercel.app/",
   },
   {
     title: "Nahuel – Mentoring",
     description: "Diseño y desarrollo de su sitio de cursos, con enfoque en experiencia de usuario y rendimiento.",
-    imgSrc: "/images/ethereal-threads.png",
+    imgSrc: "/images/mentoring.png",
     href: "https://plataformacursos.lozanonahuel.com/",
   },
   {
     title: "Fantaseeds",
     description: "Diseñamos y desarrollamos la página web oficial de Fantaseeds, una marca argentina enfocada en la cultura cannábica.",
-    imgSrc: "/images/quantum-leap.png",
+    imgSrc: "/images/fantaseeds.png",
     href: "https://www.fantaseeds.com.ar/",
   },
 ]
