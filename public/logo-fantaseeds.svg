@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" fill="none" viewBox="0 0 400 120">
+  <!-- Texto "fantaseeds" en serif elegante y condensado -->
+  <text 
+    x="200" 
+    y="55" 
+    fill="#ffffff" 
+    font-family="'Times New Roman', serif" 
+    font-size="52" 
+    font-weight="400" 
+    text-anchor="middle"
+    letter-spacing="1px"
+    style="font-variant: normal;"
+  >
+    fantaseeds
+  </text>
+  
+  <!-- Diacríticos en forma de diamante debajo de letras específicas -->
+  <!-- Debajo de la primera 'a' (posición aproximada) -->
+  <polygon 
+    points="88,70 93,75 88,80 83,75" 
+    fill="#ffffff"
+  />
+  
+  <!-- Debajo de la primera 's' -->
+  <polygon 
+    points="125,70 130,75 125,80 120,75" 
+    fill="#ffffff"
+  />
+  
+  <!-- Debajo de la primera 'e' -->
+  <polygon 
+    points="155,70 160,75 155,80 150,75" 
+    fill="#ffffff"
+  />
+  
+  <!-- Debajo de la segunda 'e' -->
+  <polygon 
+    points="220,70 225,75 220,80 215,75" 
+    fill="#ffffff"
+  />
+  
+  <!-- Debajo de la 'd' -->
+  <polygon 
+    points="280,70 285,75 280,80 275,75" 
+    fill="#ffffff"
+  />
+  
+  <!-- Texto "ONG DE LA SALUD" con efecto outline/embossed -->
+  <text 
+    x="200" 
+    y="100" 
+    fill="none" 
+    font-family="Arial, sans-serif" 
+    font-size="12" 
+    font-weight="bold" 
+    text-anchor="middle"
+    letter-spacing="4px"
+    stroke="#ffffff"
+    stroke-width="1.5"
+    style="text-transform: uppercase;"
+  >
+    ONG DE LA SALUD
+  </text>
+  
+  <!-- Sombra/outline adicional para efecto embossed -->
+  <text 
+    x="201" 
+    y="101" 
+    fill="#ffffff" 
+    font-family="Arial, sans-serif" 
+    font-size="12" 
+    font-weight="bold" 
+    text-anchor="middle"
+    letter-spacing="4px"
+    opacity="0.3"
+    style="text-transform: uppercase;"
+  >
+    ONG DE LA SALUD
+  </text>
+</svg>

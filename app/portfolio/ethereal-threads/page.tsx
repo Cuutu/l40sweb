@@ -25,12 +25,22 @@ const features = [
 const EtherealThreadsPage = () => {
   return (
     <div>
-      <div className="relative h-screen">
+      <div className="relative h-screen overflow-hidden">
         <EtherealScene />
+        {/* Logo de fondo */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+          <div className="w-full h-full flex items-center justify-center">
+            <img 
+              src="/logo-mentoring.svg" 
+              alt="Mentoring Logo" 
+              className="max-w-2xl w-full h-auto"
+            />
+          </div>
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <ProjectHeader
-            title="Ethereal Threads"
-            description="An interactive artwork that weaves light, color, and motion into a mesmerizing digital tapestry. Guide the flow and watch as new patterns emerge."
+            title="Nahuel – Mentoring"
+            description="Diseño y desarrollo de su sitio de cursos, con enfoque en experiencia de usuario y rendimiento."
           />
         </div>
       </div>

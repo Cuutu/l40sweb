@@ -12,14 +12,14 @@ const projects = [
     href: "https://lozanonahuel.vercel.app/",
   },
   {
-    title: "Cursos de Nahuel",
-    description: "Realizamos la página para la venta de cursos de Nahuel.",
+    title: "Nahuel – Mentoring",
+    description: "Diseño y desarrollo de su sitio de cursos, con enfoque en experiencia de usuario y rendimiento.",
     imgSrc: "/images/ethereal-threads.png",
     href: "https://plataformacursos.lozanonahuel.com/",
   },
   {
     title: "Fantaseeds",
-    description: "Realizamos la página web de Fantaseeds, un club cannabico de Argentina.",
+    description: "Diseñamos y desarrollamos la página web oficial de Fantaseeds, una marca argentina enfocada en la cultura cannábica.",
     imgSrc: "/images/quantum-leap.png",
     href: "https://www.fantaseeds.com.ar/",
   },

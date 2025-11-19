@@ -24,12 +24,22 @@ const features = [
 const ProjectCyberscapePage = () => {
   return (
     <div>
-      <div className="relative h-screen">
+      <div className="relative h-screen overflow-hidden">
         <CyberscapeScene />
+        {/* Logo de fondo */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+          <div className="w-full h-full flex items-center justify-center">
+            <img 
+              src="/logo-nahuel.svg" 
+              alt="Nahuel Lozano Logo" 
+              className="max-w-2xl w-full h-auto"
+            />
+          </div>
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <ProjectHeader
-            title="Project Cyberscape"
-            description="An immersive journey into a procedurally generated digital world. Experience a reality constructed from pure data, where light and geometry intertwine."
+            title="Nahuel – Landing Page Personal"
+            description="Diseñamos y desarrollamos su landing profesional, optimizada para performance y conversión."
           />
         </div>
       </div>

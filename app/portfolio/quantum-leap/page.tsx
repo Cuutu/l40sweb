@@ -27,12 +27,22 @@ const features = [
 const QuantumLeapPage = () => {
   return (
     <div>
-      <div className="relative h-screen">
+      <div className="relative h-screen overflow-hidden">
         <QuantumScene />
+        {/* Logo de fondo */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+          <div className="w-full h-full flex items-center justify-center">
+            <img 
+              src="/logo-fantaseeds.svg" 
+              alt="Fantaseeds Logo" 
+              className="max-w-2xl w-full h-auto"
+            />
+          </div>
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <ProjectHeader
-            title="Quantum Leap"
-            description="An interactive simulation of a quantum field. Disturb the fabric of spacetime with your cursor and witness the chaotic beauty of particle physics."
+            title="Fantaseeds"
+            description="Diseñamos y desarrollamos la página web oficial de Fantaseeds, una marca argentina enfocada en la cultura cannábica."
           />
         </div>
       </div>
